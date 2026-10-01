@@ -1,0 +1,23 @@
+# node / build
+node_modules/
+out/
+build/
+.cache/
+
+# bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# virtual environments and local secrets
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# generated media (not part of the source)
+*.mp4
+*.mov
+*.wav
+*.mp3

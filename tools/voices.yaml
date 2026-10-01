@@ -1,0 +1,18 @@
+# synthetic sample (placeholder voice ids; set your own)
+defaults:
+  model_id: eleven_v3
+  language_code: ja
+  output_format: mp3_44100_128
+  seed: 42
+  voice_settings:
+    stability: 0.5
+    similarity_boost: 0.75
+    style: 0.0
+    use_speaker_boost: true
+voices:
+  voice_a:
+    voice_id: <VOICE_ID>
+  voice_b:
+    voice_id: <VOICE_ID>
+    voice_settings:
+      style: 0.45

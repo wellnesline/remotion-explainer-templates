@@ -1,0 +1,29 @@
+{
+  "name": "explainer-remotion",
+  "version": "0.1.0",
+  "description": "Explainer Remotion compositions (documentary-style scene types)",
+  "scripts": {
+    "preview": "remotion studio src/index.ts",
+    "render:full": "remotion render src/index.ts FullVideo out/full.mp4",
+    "render:mvp": "remotion render src/index.ts MvpSequence out/mvp.mp4",
+    "render:scene": "remotion render src/index.ts SingleScene out/scene.mp4",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {},
+  "private": true,
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.230",
+    "@remotion/cli": "^4.0.230",
+    "@remotion/google-fonts": "^4.0.230",
+    "@remotion/renderer": "^4.0.230",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.230"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/web": "^0.0.143",
+    "typescript": "^5.4.5"
+  }
+}

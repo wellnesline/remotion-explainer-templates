@@ -1,0 +1,6 @@
+# synthetic sample (not the production dictionary)
+# caption -> speech replacement used before TTS. Longest key wins.
+mappings:
+  SNS: エスエヌエス
+  AI: エーアイ
+  小さく始める: ちいさくはじめる

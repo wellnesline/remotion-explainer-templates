@@ -1,0 +1,94 @@
+{
+  "title": "天気予報の読み方(合成サンプル)",
+  "voice": "<VOICE_ID>",
+  "design_template": "documentary_serious",
+  "_comment": "synthetic sample data (not real script content)",
+  "slides": [
+    {
+      "title": "サンプル タイトルカード",
+      "scene_type": "title_card",
+      "duration_sec": 6,
+      "lines": [
+        {
+          "speech": "雲の動きを見ると、天気の変化が予想しやすくなります。",
+          "caption": "雲の動きを見ると、天気の変化が予想しやすくなります。"
+        },
+        {
+          "speech": "では、順番に整理してみます。",
+          "caption": "では、順番に整理してみます。"
+        }
+      ],
+      "section_timing": [
+        {
+          "line_idx": 0,
+          "caption": "雲の動きを見ると、天気の変化が予想しやすくなります。",
+          "speech": "雲の動きを見ると、天気の変化が予想しやすくなります。",
+          "start_sec": 0.5,
+          "end_sec": 3.2,
+          "duration_sec": 2.7
+        },
+        {
+          "line_idx": 1,
+          "caption": "では、順番に整理してみます。",
+          "speech": "では、順番に整理してみます。",
+          "start_sec": 3.4,
+          "end_sec": 5.8,
+          "duration_sec": 2.4
+        }
+      ],
+      "central_track": [
+        {
+          "from_line_idx": 0,
+          "type": "kinetic_keyword",
+          "text": "天気予報の読み方",
+          "subtitle": "サンプル"
+        }
+      ]
+    },
+    {
+      "title": "サンプル 概念の提示",
+      "scene_type": "concept_reveal",
+      "duration_sec": 6,
+      "concept": {
+        "keyword": "小さな一歩",
+        "subtitle": "サンプル説明",
+        "motif": "none"
+      },
+      "lines": [
+        {
+          "speech": "最初の一歩を小さくすることが、継続の鍵です。",
+          "caption": "最初の一歩を小さくすることが、継続の鍵です。"
+        },
+        {
+          "speech": "これは架空のサンプル文です。",
+          "caption": "これは架空のサンプル文です。"
+        }
+      ],
+      "section_timing": [
+        {
+          "line_idx": 0,
+          "caption": "最初の一歩を小さくすることが、継続の鍵です。",
+          "speech": "最初の一歩を小さくすることが、継続の鍵です。",
+          "start_sec": 0.5,
+          "end_sec": 3.4,
+          "duration_sec": 2.9
+        },
+        {
+          "line_idx": 1,
+          "caption": "これは架空のサンプル文です。",
+          "speech": "これは架空のサンプル文です。",
+          "start_sec": 3.6,
+          "end_sec": 5.6,
+          "duration_sec": 2.0
+        }
+      ],
+      "central_track": [
+        {
+          "from_line_idx": 0,
+          "type": "kinetic_keyword",
+          "text": "小さな一歩"
+        }
+      ]
+    }
+  ]
+}
